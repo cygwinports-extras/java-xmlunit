@@ -1,0 +1,11 @@
+JAVA_CLASSPATH="junit.jar:xercesImpl.jar:xalan.jar:xml-apis.jar"
+inherit ant
+
+DESCRIPTION="JUnit testing for XML"
+HOMEPAGE="http://xmlunit.sourceforge.net/"
+SRC_URI="mirror://sourceforge/xmlunit/${P#java-}-src.zip"
+PATCH_URI="1.3-docbook.patch"
+
+ANT_BUILD_TARGETS="jar javadocs"
+ANT_INSTALL_JARS="build/lib/xmlunit-*.jar"
+ANT_INSTALL_JAVADOC="build/doc/api"

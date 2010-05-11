@@ -1,0 +1,11 @@
+--- origsrc/xmlunit-1.3/docbook.xml	2009-09-21 20:43:34.000000000 -0500
++++ src/xmlunit-1.3/docbook.xml	2010-05-06 01:20:50.195395600 -0500
+@@ -3,7 +3,7 @@
+   <property file="docbook.properties"/>
+ 
+   <!-- location of Docbook Stylesheets and dblatex -->
+-  <property name="db5.xsl" location="../../docbook/docbook5-xsl-1.72.0"/>
++  <property name="db5.xsl" location="/usr/share/sgml/docbook/xsl-stylesheets/"/>
+   <property name="dblatex" value="/usr/bin/dblatex"/>
+ 
+   <property name="html.dir" location="${userguide.docs.dir}/html"/>
